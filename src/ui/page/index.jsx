@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Layout from "@/features/layout";
 
 export default function Page({
   children,
@@ -20,7 +21,7 @@ export default function Page({
         )}
         {noIndex && <meta name="robots" content="noindex" />}
       </Head>
-      {children}
+      <Layout>{children}</Layout>
     </>
   );
 }

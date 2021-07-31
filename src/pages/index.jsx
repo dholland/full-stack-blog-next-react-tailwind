@@ -1,13 +1,40 @@
-import Page from "@/ui/page";
+import BlogPost, {
+  Section,
+  Heading,
+  InlineSnippet,
+  BlockSnippet,
+} from "@/features/blog-post";
 
 export default function Home() {
   return (
-    <Page
+    <BlogPost
       title="Welcome to my awesome blog/portfolio"
       description="The best way to show off what you know to potential employers is to use the thing they are hiring you for. So why do a gatsby or wordpress blocg, when you are a react developer?"
       canonical="/">
-      <h1>Hello world</h1>
-      <p></p>
-    </Page>
+      <Section>
+        <Heading>Sometimes you feel like a nut, sometimes you don't</Heading>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          repudiandae animi ea iusto vero tempora nesciunt consequatur quis,
+          dolores autem reprehenderit, consectetur blanditiis, magnam assumenda
+          facilis hic eligendi vitae aperiam!
+        </p>
+
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam debitis
+          nulla esse quo nobis, perspiciatis fugit ab{" "}
+          <InlineSnippet>asperiores eligendi</InlineSnippet> quidem tenetur
+          neque explicabo, ducimus alias! Esse eveniet maxime suscipit rerum!
+        </p>
+
+        <BlockSnippet
+          language="jsx"
+          code={`
+export default function TextComponent({}) {
+  return <div>hello</div>
+}
+        `}></BlockSnippet>
+      </Section>
+    </BlogPost>
   );
 }
