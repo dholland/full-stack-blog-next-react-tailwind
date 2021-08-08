@@ -35,6 +35,24 @@ export default function TextComponent({}) {
 }
         `}></BlockSnippet>
       </Section>
+
+      <Section>
+        <Heading>This would be another section for the blog post</Heading>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio,
+          cum laudantium. Autem aspernatur sunt tempore nulla ut obcaecati
+          ducimus minima ratione odio error nam, repellendus exercitationem
+          facere quibusdam corrupti similique!
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus in
+          laborum eum iure cupiditate iusto animi itaque doloribus? Doloremque
+          architecto, sint quidem libero reprehenderit officia temporibus nam
+          repudiandae voluptate aperiam!
+        </p>
+      </Section>
     </BlogPost>
   );
 }

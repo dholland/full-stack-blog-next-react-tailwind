@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 p {
-  @apply mb-8;
+  @apply my-4 text-gray-800;
 }
