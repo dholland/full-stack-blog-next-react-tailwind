@@ -15,9 +15,9 @@ export default function BlogPost({ children, title, description, canonical }) {
   return (
     <Page title={title} description={description} canonical={canonical}>
       <Container>
-        <article>
+        <article className="flex">
           <TableOfContents sections={sections} />
-          <div>
+          <div className="w-3/5">
             <h1 className="font-black text-gray-700 mt-8 mx-8 text-3xl uppercase">
               {title}
             </h1>

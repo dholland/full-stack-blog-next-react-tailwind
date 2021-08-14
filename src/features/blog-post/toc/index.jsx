@@ -11,12 +11,13 @@ export default function BlogPostTableOfContents({ sections }) {
   }
 
   return (
-    <aside>
+    <aside className="border p-8 m-4">
+      <h3 className="text-2xl font-bold uppercase mb-4">Table of contents</h3>
       <ul>
         {sections.map((section) => {
           const heading = headingFromSection(section);
           return (
-            <li>
+            <li className="font-medium tracking-wide leading-7">
               <a href={`#${parameterize(heading)}`}>{heading}</a>
             </li>
           );
