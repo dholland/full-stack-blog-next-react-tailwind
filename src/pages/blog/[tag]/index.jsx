@@ -1,9 +1,10 @@
 import { getArticlesMetaData, getTags } from "@/api/blog";
+
 import Page from "@/ui/page";
 import Container from "@/ui/container";
 import BlogIndex from "@/features/blog/index";
 
-export default function BlogIndexPage({ articles, tags }) {
+export default function BlogIndexByTagPage({ articles, tags }) {
   return (
     <Container>
       <Page title={"Blog index"}>

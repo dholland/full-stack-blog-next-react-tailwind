@@ -5,7 +5,7 @@ import BlogPost, {
   Heading,
   InlineSnippet,
   BlockSnippet,
-} from "@/features/blog-post";
+} from "@/features/blog/post";
 
 export default function EverythingChanges({ title, description, canonical }) {
   return (

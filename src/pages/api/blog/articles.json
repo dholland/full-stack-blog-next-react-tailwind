@@ -5,13 +5,24 @@
     "slug": "please-for-the-childrens-sake-stop-using-null",
     "href": "/blog/please-for-the-childrens-sake-stop-using-null",
     "image": "/images/blog/please-for-the-childrens-sake-stop-using-null.png",
-    "teaser": "I know of no other language that has two base types. In JavaScript we have undefined and NULL, and NULL will break default values for functions, can act weird in destructuring, and of course, who the hell wants code that looks like: if(a !== null && a !== undefined)????? not me."
+    "teaser": "I know of no other language that has two base types. In JavaScript we have undefined and NULL, and NULL will break default values for functions, can act weird in destructuring, and of course, who the hell wants code that looks like: if(a !== null && a !== undefined)????? not me.",
+    "tags": ["beginner"]
   },
   {
     "title": "Everything changes, but your variable shouldn't (mostly)",
     "category": "other shit",
     "slug": "everything-changes-but-your-variable-shouldnt-mostly",
     "href": "/blog/everything-changes-but-your-variable-shouldnt-mostly",
-    "image": "/images/blog/everything-changes-but-your-variable-shouldnt-mostly.png"
+    "image": "/images/blog/everything-changes-but-your-variable-shouldnt-mostly.png",
+    "teaser": "Immutability is king, as the saying goes. When there is a log of variable change, renaming, and reassignment, shit gets hard to track!",
+    "tags": ["beginner"]
+  },
+  {
+    "title": "Build This! A beautiful horizontal menu in Create React App",
+    "category": "React Components",
+    "slug": "build-this-a-beautiful-horizontal-menu-in-create-react-app",
+    "href": "/blog/build-this-a-beautiful-horizontal-menu-in-create-react-app",
+    "image": "/images/blog/build-this-a-beautiful-horizontal-menu-in-create-react-app.png",
+    "tags": ["advanced", "react"]
   }
 ]
